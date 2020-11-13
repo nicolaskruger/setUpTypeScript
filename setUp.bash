@@ -17,6 +17,9 @@ cat ./setUp/tslint.json > ./tslint.json
 
 cat ./setUp/package.json > ./package.json
 
+mkdir src
+
+touch src/app.ts
 
 rm -r ./setUp
 rm -r ./.git
