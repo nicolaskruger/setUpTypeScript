@@ -21,6 +21,10 @@ mkdir src
 
 touch src/app.ts
 
+npm install systemjs@0.19.31 --save
+
+cat ./setUp/index.htm > ./index.htm
+
 rm -r ./setUp
 rm -r ./.git
 rm README.md
