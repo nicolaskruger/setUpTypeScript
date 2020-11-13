@@ -1,2 +1,5 @@
 #!/bin/bash
-ls
+
+rm -r ./.git
+rm README.md
+rm setUp.bash
