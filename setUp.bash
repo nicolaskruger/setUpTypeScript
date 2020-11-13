@@ -25,6 +25,8 @@ npm install systemjs@0.19.31 --save
 
 cat ./setUp/index.htm > ./index.htm
 
+cat ./setUp/.gitignore > .gitignore 
+
 rm -r ./setUp
 rm -r ./.git
 rm README.md
