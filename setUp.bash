@@ -23,11 +23,11 @@ touch src/app.ts
 
 npm install systemjs@0.19.31 --save
 
-cat ./setUp/index.htm > ./index.htm
+cat ./setUp/index.html > ./index.html
 
 cat ./setUp/.gitignore > .gitignore 
 
 rm -r ./setUp
-rm -r ./.git
+rm -r -f ./.git
 rm README.md
 rm setUp.bash
